@@ -1,0 +1,29 @@
+.navbar {
+    background-color: goldenrod;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-right: 1.5rem;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #f8f9fa;
+  }
